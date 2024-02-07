@@ -20,6 +20,6 @@ COPY layers/*.md ./layers/
 COPY *.md ./
 
 WORKDIR /src/nav-app
-EXPOSE 4200
+EXPOSE 443
 
 CMD npm start
