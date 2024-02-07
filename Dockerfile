@@ -1,8 +1,6 @@
 # Build stage
 
-FROM node:16
-
-ENV NODE_OPTIONS=--openssl-legacy-provider
+FROM node:18
 
 # install node packages - cache for faster future builds
 WORKDIR /src/nav-app
