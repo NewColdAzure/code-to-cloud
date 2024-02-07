@@ -22,4 +22,6 @@ COPY *.md ./
 WORKDIR /src/nav-app
 EXPOSE 443
 
+RUN npm run postinstall
+
 CMD npm start
