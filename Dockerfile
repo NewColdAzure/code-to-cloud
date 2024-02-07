@@ -1,6 +1,6 @@
 # Build stage
 
-FROM node:18
+FROM node:16
 
 ENV NODE_OPTIONS=--openssl-legacy-provider
 
